@@ -1,0 +1,77 @@
+body {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    background: linear-gradient(#a7282c,#141215);
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+}
+
+.main-image {
+    width: 200px;
+    border: 5px solid #ffffff;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.bday-info {
+    background: #141215;
+    margin: 20px 0;
+    font-weight: 800; 
+    padding: 5px 10px;
+    border: 5px solid #ffffff;
+    border-radius: 5px;
+}
+
+.gift-title {
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+
+.gift-disclaimer {
+    margin-top: 0;
+}
+
+.gift-img {
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    background-image: url("images/gift-cover.jpg");
+    background-size: cover;
+    border: 5px solid #ffffff;
+    border-radius: 5px;
+}
+
+.gift-img-happy:hover {
+    background-image: url("images/happy.gif");
+}
+
+.gift-img-hot:hover {
+    background-image: url("images/hot.gif");
+}
+
+.gift-img-genius:hover {
+    background-image: url("images/genius.gif");
+}
+
+.gift-img-badass:hover {
+    background-image: url("images/badass.gif");
+}
+
+.gift-img-cheers:hover {
+    background-image: url("images/cheers.gif");
+}
+
+.footer {
+    width: 400px;
+    margin: 50px auto;
+    font-style: italic;
+}
+
+a {
+    color: #ffffff;
+}
